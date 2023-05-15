@@ -1,0 +1,384 @@
+body{
+    background: whitesmoke;
+}
+.signup{
+    display: none;
+}
+ .top{
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.nav{
+    position: relative;
+    margin-top: 20px;
+    display: block;
+    
+    margin-left: 18px;
+}
+header{
+    width: 100%;
+    height: 5rem;
+}
+.icon-logo{
+    width: 300px;
+    position: absolute;
+    margin-top: 20px;
+}
+.logo-text{
+    margin-top: -22px;
+    position: absolute;
+    margin-left: 2.2rem;
+}
+.search-obt{
+    width: 600px;
+    border: 4px solid black;
+    margin-left: 260px;
+    margin-top: 25px;
+   border-radius: 80px;
+    transition: all 500ms ease;
+    animation: 11ms mylook infinite;
+}
+.search-obt:hover{
+    width: 650px;
+    border: 5px solid orange;
+}
+.search-obt::placeholder{
+    color: gray;
+    margin-left: 6px;
+}
+@keyframes mylook{
+    from{color: gray;}
+    to{color: wheat;}
+}
+.search-btn{
+    background: orangered;
+    border: 4px solid black;
+    color: gray;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    margin-left: -20px;
+}
+.top-search-list{
+    margin-left: 260px;
+}
+.top-search-list a{
+    text-decoration: none;
+    color: #000000cf;
+}
+.top-search-list a:hover{
+    cursor: pointer;
+    color: orangered;
+}
+.last-icon-header{
+    margin-left: 950px;
+    margin-top: -55px;
+    width: 300px;
+    font-size: 28px;
+}
+.flash-board{
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+    height: 20vh;
+    background: linear-gradient(45deg , pink, rgb(99, 135, 184), rgb(155, 155, 223));
+}
+.header-flash{
+    margin-top: 50px;
+}
+.b-section{
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 50px;
+    border-bottom: 1px solid orangered;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.b-section .time{
+    color: aliceblue;
+    background: orangered;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+}
+.b-section >div {
+    position: relative;
+    padding-top: 10px;
+    color: gray;
+    background: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+.b-section >div:hover{
+    border: 0.2px solid orangered;
+}
+.b-section  .btn-coming{
+    border: 1px solid gray;
+    border-radius: 80px;
+    position: relative;
+    margin-left: 20px;
+}
+section{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 65px;
+
+}
+
+.card-body img{
+    height: 180px;
+    width: 215px;
+}
+.price-tag{
+    width: 250px;  
+    height: 40px;  
+    font-weight: bold;
+}
+
+ .card-footer{
+    background: orangered;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+ .card-body .price{
+    
+    color: darkred;
+    
+}
+ .card-body .save-money {
+    margin-left: 60px;
+    background: orangered;
+    color: whitesmoke;
+
+}
+.item{
+    display: grid;
+    width: 80%;
+    gap: 5px;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.show-more-btn{
+    width: 40%;
+    background: linear-gradient(30deg, rgb(92, 45, 45) , whitesmoke);
+    height: 40px;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+    margin-left: 400px;
+    cursor: pointer;
+
+}
+.show-more-btn a{
+    text-decoration: none;
+    color: orangered;
+    transition: 1s inherit;
+}
+.show-more-btn a:hover{
+    text-shadow: #000000cf;
+    width: 30px;
+}
+
+
+.term-and-condition{
+    border: 3px solid orangered;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 110px;
+    color: gray;
+}
+.term-and-condition-header{
+    color: orangered;
+}
+.about-use{
+    display: grid;
+    width: 95%;
+    margin-top: 30px;
+    margin-left: 1rem;
+    gap: 2rem;
+    grid-template-columns: repeat(5, 3.5fr);
+}
+.about-use >div ul{
+    margin-top: 1.4rem;
+}
+.about-use >div ul li{
+    list-style: none;
+    padding-top: 0.4rem;
+}
+.about-use >div h6{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.icon >span{
+    padding-left: 1.5rem;
+    font-size: 1.6rem;
+    color: gray;
+}
+.android-icon{
+    border: 1px solid gray;
+    height: 1.9rem;
+    cursor: pointer;
+}
+.partners{
+    display: grid;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 80px;
+    grid-template-columns: repeat(6, 1fr);
+}
+.h2-header{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px ;
+    color: orangered;
+}
+.partners >div{
+    margin-top: 10px;
+}
+.partners >div img{
+    width: 170px;
+    height: 80px;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+.partners > div img:hover{
+    border: 1px solid orangered;
+    width: 180px;
+    height: 90px;
+}
+footer{
+    margin-top: 20px;
+    position: absolute;
+    background: white;
+    height: 120vh;
+    width: 100%;
+}
+@media screen and (max-width:1023px) {
+ .top {
+    display: none;
+ }
+    header{
+    display: inline;
+    
+}  
+.signup{
+    width: 160px;
+    height: 60px;
+    text-decoration: none;
+    background: olive;
+    color: #fff;
+    padding-top:  15px;
+    padding-left: 30px;
+    border: 1px solid green;
+    display: block;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 60px ;
+    animation: 2s mycreate infinite;
+}
+@keyframes mycreate {
+    from{color: #fff;}
+    to{color:yellow ;}
+}
+.flash-board h5{
+    margin-top: -35px;
+    margin-left: 100px
+}
+.icon-logo{
+    margin-top: -8px;
+    margin-left: 160px;
+}
+.logo-text{
+
+    padding-top:  0.6px;
+}
+
+header .search-obt{
+    width: 170px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.search-obt:hover{
+    width: 180px;
+}
+.top-search-list{
+    margin-left: 20px;
+}
+.last-icon-header{
+    display: none;
+}    
+.flash-board{
+    width: 500px;
+}
+.b-section{
+    width: 450px;
+    margin-left: 20px;
+}
+
+.item{
+    margin-left: 10px;
+    width: 300px;
+    display: grid;
+    gap: 3px;
+    margin-top: 30px;
+    margin-left: 4.7spx;
+    grid-template-columns: repeat(2, 0.81fr);
+}
+.card-body{
+    width: 200px;
+    font-size: 9px;
+}
+.item .card-body img{
+    width: 122px;
+    height: 80px;
+}
+.card-body .price-tag{
+    width: 100px;
+}
+.save-money{
+    margin-left: 150px;
+}
+.show-more-btn{
+    margin-left: 100px;
+}
+footer{
+    width: 500px;
+    height: 180vh;
+}
+.term-and-condition{
+    margin-left: 10px;
+}
+
+.partners{
+    width: 400px;
+    margin-left: 10px;
+}
+.about-use{
+    display: grid;
+    font-size: 10px;
+    grid-template-columns: repeat(3, 0.3fr);
+}
+.partners .kcb img{
+    width: 80px;
+    height: 40px;
+    margin-left: -10px;
+}
+.partners  .airtel img{
+    width: 80px;
+    height: 40px;
+}
+.partners .airtel img:hover{
+    width: 90px;
+    height: 50px;
+}
+/*SIGN UP CSSS*/
+
+}
